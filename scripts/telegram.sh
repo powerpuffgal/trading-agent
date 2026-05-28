@@ -37,10 +37,16 @@ if [[ -z "${TELEGRAM_BOT_TOKEN:-}" || -z "${TELEGRAM_CHAT_ID:-}" ]]; then
   exit 0
 fi
 
-# Resolve python binary (python3 on Linux/Mac, python on some Windows envs)
-PYTHON=$(command -v python3 2>/dev/null || command -v python 2>/dev/null || true)
+# Resolve python binary — try each candidate and verify it actually runs
+PYTHON=""
+for candidate in python python3; do
+  if command -v "$candidate" &>/dev/null && "$candidate" -c "import sys" &>/dev/null 2>&1; then
+    PYTHON="$candidate"
+    break
+  fi
+done
 if [[ -z "$PYTHON" ]]; then
-  echo "ERROR: python3/python not found — needed to build Telegram JSON payload" >&2
+  echo "ERROR: no working python/python3 found — needed to build Telegram JSON payload" >&2
   exit 1
 fi
 
