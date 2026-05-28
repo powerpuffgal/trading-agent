@@ -1,0 +1,4 @@
+* text=auto
+scripts/*.sh text eol=lf
+routines/*.md text eol=lf
+.claude/commands/*.md text eol=lf
