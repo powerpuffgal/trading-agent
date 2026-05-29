@@ -50,13 +50,16 @@ const TRADELOG    = path.join(ROOT, 'memory', 'TRADE-LOG.md');
 
 // ── low-level helpers ─────────────────────────────────────────────────────────
 
-function httpsGet(url) {
+function httpsGet(url, socketTimeoutMs = 40000) {
   return new Promise((resolve, reject) => {
-    https.get(url, res => {
+    const req = https.get(url, res => {
       let d = '';
       res.on('data', c => d += c);
       res.on('end', () => { try { resolve(JSON.parse(d)); } catch(e) { reject(e); } });
-    }).on('error', reject);
+    });
+    req.on('error', reject);
+    // Socket timeout slightly longer than Telegram's server-side timeout (30s)
+    req.setTimeout(socketTimeoutMs, () => { req.destroy(new Error('socket timeout')); });
   });
 }
 
@@ -320,14 +323,17 @@ async function cmdAlloc(arg) {
 
 // ── update processor ──────────────────────────────────────────────────────────
 
-async function processUpdates() {
+async function processUpdates(longPoll = false) {
   if (!TOKEN || !CHAT_ID) { console.log('[bot] Telegram not configured — skipping'); return; }
 
   const offset = getOffset();
+  // Long polling (timeout=30): server holds connection until a message arrives or 30s passes.
+  // Short polling (timeout=0): returns immediately — used for one-shot routine calls.
+  const timeout = longPoll ? 30 : 0;
   let response;
   try {
     response = await httpsGet(
-      `https://api.telegram.org/bot${TOKEN}/getUpdates?offset=${offset}&limit=20&timeout=0`
+      `https://api.telegram.org/bot${TOKEN}/getUpdates?offset=${offset}&limit=20&timeout=${timeout}`
     );
   } catch (e) {
     console.error('[bot] getUpdates error:', e.message);
@@ -397,11 +403,12 @@ async function main() {
   const intervalArg = process.argv.find(a => a.startsWith('--interval='));
   const interval = intervalArg ? parseInt(intervalArg.split('=')[1]) * 1000 : 10000;
 
-  if (loop) console.log(`[bot] Polling every ${interval/1000}s — Ctrl-C to stop`);
+  if (loop) console.log(`[bot] Long-polling — Ctrl-C to stop`);
 
   do {
-    await processUpdates();
-    if (loop) await new Promise(r => setTimeout(r, interval));
+    // Loop mode: long polling (server waits up to 30s per request — near-instant response).
+    // One-shot mode: short polling (returns immediately, used by routines).
+    await processUpdates(loop);
   } while (loop);
 }
 
