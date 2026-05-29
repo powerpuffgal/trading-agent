@@ -68,6 +68,15 @@ No positions. Alpaca paper account confirmed active. First live pre-market run t
 - Thesis-break exit: Revenue growth < 10% for 2+ quarters OR net margin contraction below 5%.
 - Fair value: $114.50 (analyst consensus 12-month) | Hard stop: ~$68.10 (-15% from ~$80)
 
+## 2026-05-29 — CANCELLED LMT (pre-fill)
+- Reason: User preference — no defence/war stocks. Order cancelled before market open fill.
+
+## 2026-05-29 — BUY ICE (replacement for LMT)
+- Entry: ~$148.37 | Shares: 53 | Est. cost basis: ~$7,864
+- Thesis: Intercontinental Exchange — operates NYSE, ICE futures exchanges, and financial data businesses. High-moat, recurring data/exchange revenue. Defensive diversifier vs tech-heavy portfolio. ROE and margins strong for financial exchange model.
+- Thesis-break exit: Core exchange volumes decline structurally for 2+ years OR major regulatory action dismantling exchange pricing power.
+- Fair value: TBD | Hard stop: ~$126 (-15% from ~$148)
+
 ## 2026-05-29 — BUY NVDA (Session 2 semis/hyperscalers)
 - Entry: ~$214.22 | Shares: 19 | Est. cost basis: $4,070
 - Thesis: Fwd P/E 24x — 35% below semiconductor industry median (37x); revenue FY2026 $215.9B +65% YoY, net income $120.1B +65%. AI infrastructure dominant. Gross margin 71.1%. Cheapest it has been relative to growth in years.
