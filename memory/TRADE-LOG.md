@@ -1,9 +1,9 @@
 # Trade Log
 
-## Day 0 — Baseline (pre-launch)
-**Portfolio:** $10,000.00 | **Cash:** $10,000.00 (100%) | **Day P&L:** $0 | **Phase P&L:** $0
+## 2026-05-29 — Day 0 Baseline (pre-launch)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0 | **Phase P&L:** $0
 
-No positions. Bot launches on next trading day.
+No positions. Alpaca paper account confirmed active. First live pre-market run today.
 
 ---
 
