@@ -68,4 +68,22 @@ No positions. Alpaca paper account confirmed active. First live pre-market run t
 - Thesis-break exit: Revenue growth < 10% for 2+ quarters OR net margin contraction below 5%.
 - Fair value: $114.50 (analyst consensus 12-month) | Hard stop: ~$68.10 (-15% from ~$80)
 
+## 2026-05-29 — BUY NVDA (Session 2 semis/hyperscalers)
+- Entry: ~$214.22 | Shares: 19 | Est. cost basis: $4,070
+- Thesis: Fwd P/E 24x — 35% below semiconductor industry median (37x); revenue FY2026 $215.9B +65% YoY, net income $120.1B +65%. AI infrastructure dominant. Gross margin 71.1%. Cheapest it has been relative to growth in years.
+- Thesis-break exit: AI capex cycle reverses (hyperscaler capex guidance cuts > 20%) OR GPU competitive displacement by custom ASIC alternatives gaining > 30% data centre share.
+- Fair value: $332 (GF Value estimate) | Hard stop: ~$182 (-15% from ~$214)
+
+## 2026-05-29 — BUY GOOGL (Session 2 semis/hyperscalers)
+- Entry: ~$368.28 | Shares: 11 | Est. cost basis: $4,051
+- Thesis: P/E 29.7x, ROE 33.5%, net margin 37.9%. EPS +82% YoY Q1 2026. Best quality/price in hyperscalers — Search moat + Google Cloud + Gemini AI. Cheaper than MSFT on growth-adjusted basis.
+- Thesis-break exit: Search revenue declines for 2+ quarters (AI disruption materialises in revenue) OR Cloud loses market share to AWS/Azure for 2+ quarters.
+- Fair value: ~$480 (12-month estimates) | Hard stop: ~$313 (-15% from ~$368)
+
+## 2026-05-29 — BUY AVGO (Session 2 semis/hyperscalers)
+- Entry: ~$399–451 (wide AH spread; conservatively sized) | Shares: 9 | Est. cost basis: $3,591–$4,059
+- Thesis: EBITDA margin 68%, AI semiconductor revenue +106% YoY to $8.4B Q1. Custom ASICs for Microsoft, Google, Meta. Q2 2026 guidance $22B (+47% YoY). Structural AI infrastructure pick.
+- Thesis-break exit: AI ASIC revenue growth decelerates below 30% for 2+ quarters OR a major hyperscaler partner brings ASIC design in-house.
+- Fair value: $482 (analyst consensus 12-month) | Hard stop: -15% from actual fill
+
 ---

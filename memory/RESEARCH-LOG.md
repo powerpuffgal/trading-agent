@@ -152,7 +152,9 @@ User requested WebSearch fundamentals on 14 candidates: SOC, KTOS, WLDN, IREN, T
 - ORLA — BUY 329 shares ~$4,103 — passes quality gates; P/E 9.76x, ROE 33%, strong gold margins; monitor Equinox merger
 - EGO — BUY 110 shares ~$3,740–$4,140 (spread risk) — near-pass; 29% margin, +40% production outlook; sized conservatively at 110 shares due to wide AH spread
 - WLDN — BUY 51 shares ~$4,086 — near-pass on net margin (7.7%); Q1 beat + NYC contract + Burton deal justify entry; ROE 19% passes
-- **Semiconductors/hyperscalers TBD — user to confirm from: NVDA, GOOGL, AVGO, AMZN, AMD**
+- **NVDA — BUY 19 shares ~$4,070 — fwd P/E 24x (35% below sector median), rev +65%, net income +65%**
+- **GOOGL — BUY 11 shares ~$4,051 — P/E 29.7x, ROE 33.5%, net margin 37.9%, EPS +82% YoY**
+- **AVGO — BUY 9 shares ~$3,825 — EBITDA margin 68%, AI rev +106%, Q2 guidance +47%**
 
 **Position limit note:** User has directed full deployment to ~13 positions total (including MSFT, V, META pending). This consciously exceeds the strategy's 12-position cap as a paper-trading test of broader portfolio construction.
 
