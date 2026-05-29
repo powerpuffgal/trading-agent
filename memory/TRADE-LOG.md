@@ -44,4 +44,28 @@ No positions. Alpaca paper account confirmed active. First live pre-market run t
 - Thesis-break exit: DAU growth stalls OR ad revenue declines for 2+ quarters OR regulatory breakup of platforms.
 - Fair value: $820.00 (12-month) | Hard stop: ~$544.00 (-15% from entry)
 
+## 2026-05-29 — BUY INOD (Session 2 expanded portfolio)
+- Entry: ~$84.00 | Shares: 48 | Est. cost basis: $4,032
+- Thesis: ROE 38.6%, net margin 12.8% — passes quality gates. AI data services; profitable growth play in AI training data cycle. P/E 76x reflects growth premium.
+- Thesis-break exit: Net margin drops below 8% for 2+ quarters OR ROE below 25% OR revenue growth stalls.
+- Fair value: TBD | Hard stop: ~$71.40 (-15% from ~$84)
+
+## 2026-05-29 — BUY ORLA (Session 2 expanded portfolio)
+- Entry: ~$12.47 | Shares: 329 | Est. cost basis: $4,103
+- Thesis: ROE 33.3%, net margin 20%, P/E 9.76x. Revenue +208% FY2025. Pending Equinox Gold merger ~$5.1B (Q3 2026 target). Monitor merger timeline closely.
+- Thesis-break exit: Equinox merger collapses and standalone thesis weakens OR gold price decline > 20% compressing margins.
+- Fair value: ~$16–18 pre-merger | Hard stop: ~$10.60 (-15% from ~$12.47)
+
+## 2026-05-29 — BUY EGO (Session 2 expanded portfolio)
+- Entry: ~$28–38 (wide AH spread; market order fills at open) | Shares: 110 | Est. cost basis: $3,740–$4,180
+- Thesis: Net margin 29%, ROE 14% (near-pass). Production +40% growth outlook to 2027. Q1 2026 EPS $0.69. Gold price tailwind; sized conservatively for spread risk.
+- Thesis-break exit: Gold price sustained decline > 20% OR production guidance cut > 15%.
+- Fair value: TBD | Hard stop: -15% from actual fill price
+
+## 2026-05-29 — BUY WLDN (Session 2 expanded portfolio)
+- Entry: ~$80.12 | Shares: 51 | Est. cost basis: $4,086
+- Thesis: ROE 19%, net margin 7.7% (near-pass on margin gate). Revenue $681.6M +20.5% YoY. Q1 2026 beat + NYC contract win + Burton acquisition. Engineering consulting for municipalities — defensive recurring revenue base.
+- Thesis-break exit: Revenue growth < 10% for 2+ quarters OR net margin contraction below 5%.
+- Fair value: $114.50 (analyst consensus 12-month) | Hard stop: ~$68.10 (-15% from ~$80)
+
 ---

@@ -111,6 +111,53 @@ Both trades are deliberate half-position entries to:
 
 ---
 
+## 2026-05-29 — Session 2: Expanded Portfolio Screen (14 candidates + semis/hyperscalers)
+
+### Screening Universe
+User requested WebSearch fundamentals on 14 candidates: SOC, KTOS, WLDN, IREN, TIGR, TE, ORLA, QXO, CLSK, DNLI, EGO, MSTR, INOD, PCVX. Portfolio directive: deploy to ~$75k, hold ~$25k cash. Position sizing: ~$4,100/position.
+
+### Candidate Fundamentals (WebSearch — FMP not queried for these)
+
+| Ticker | ROE | Net Margin | P/E | Rev Growth | Quality Gate | Notes |
+|--------|-----|-----------|-----|------------|-------------|-------|
+| INOD   | 38.6% ✓ | 12.8% ✓ | 76x | high | ✅ PASS | AI data services; expensive but profitable |
+| ORLA   | 33.3% ✓ | 20% ✓ | 9.76x | +208% | ✅ PASS | Gold mining; Equinox merger pending Q3 2026 |
+| EGO    | 14% ⚠ | 29% ✓ | n/a | +40% outlook | ⚠ NEAR-PASS | ROE 1pt below threshold; strong margin |
+| WLDN   | 19% ✓ | 7.7% ⚠ | n/a | +20.5% | ⚠ NEAR-PASS | Net margin 2.3pts below gate; Q1 beat + NYC contract |
+| TIGR   | 43% ✓ | positive | fwd 6x | +56% | ⚠ CHINA RISK | CSRC penalties RMB411M issued May 22; shares -25% |
+| QXO    | n/a | no data | n/a | $8.6B TTM | ❓ NO DATA | Brad Jacobs serial acquirer; TopBuild + Kodiak deals |
+| KTOS   | 1.3% ✗ | 3.2% ✗ | 289x | +22.6% | ❌ FAIL | Defence tech; thin margins |
+| MSTR   | -30.8% ✗ | neg ✗ | neg | BTC-driven | ❌ FAIL | Bitcoin proxy |
+| IREN   | 5.9% ✗ | net loss ✗ | 74x | flat | ❌ FAIL | BTC mining; Q3 net loss widening |
+| CLSK   | neg ✗ | neg ✗ | neg | $766M rev | ❌ FAIL | BTC mining + AI pivot |
+| PCVX   | -21.7% ✗ | pre-rev ✗ | neg | clinical | ❌ FAIL | Pre-revenue vaccine biotech |
+| DNLI   | -44% ✗ | $0 rev ✗ | neg | clinical | ❌ FAIL | Pre-revenue neuroscience biotech |
+| SOC    | -89% ✗ | neg ✗ | neg | oil | ❌ FAIL | Illiquid; 34% bid/ask spread |
+| TE     | neg ✗ | pre-rev ✗ | n/a | solar startup | ❌ FAIL | T1 Energy (ex-FREYR); early stage |
+
+### Semiconductor / Hyperscaler Screen (WebSearch)
+
+| Ticker | ROE | Net Margin | P/E (Fwd) | Rev Growth | Quality Gate | Price |
+|--------|-----|-----------|-----------|------------|-------------|-------|
+| NVDA   | >100% ✓ | ~55% ✓ | 24x (fwd) | +65% | ✅ PASS | ~$214 |
+| GOOGL  | 33.5% ✓ | 37.9% ✓ | 29.7x | EPS +82% YoY | ✅ PASS | ~$368 |
+| AVGO   | high ✓ | 68% EBITDA ✓ | n/a | +29% (AI rev +106%) | ✅ PASS | ~$426 |
+| AMZN   | 20.6% ✓ | 12.2% ✓ | 32x | +16% fwd | ✅ PASS | ~$272 |
+| AMD    | ~21% ✓ | 13.6% ✓ | high | +38% | ✅ PASS | ~$520 |
+| MU     | cyclical | cyclical | n/a | AI memory surge | WATCH | ~$52 |
+
+### Decisions — Session 2
+**Confirmed buys (user selected, WebSearch fundamentals documented):**
+- INOD — BUY 48 shares ~$4,032 — passes quality gates; AI data services profitable growth play
+- ORLA — BUY 329 shares ~$4,103 — passes quality gates; P/E 9.76x, ROE 33%, strong gold margins; monitor Equinox merger
+- EGO — BUY 110 shares ~$3,740–$4,140 (spread risk) — near-pass; 29% margin, +40% production outlook; sized conservatively at 110 shares due to wide AH spread
+- WLDN — BUY 51 shares ~$4,086 — near-pass on net margin (7.7%); Q1 beat + NYC contract + Burton deal justify entry; ROE 19% passes
+- **Semiconductors/hyperscalers TBD — user to confirm from: NVDA, GOOGL, AVGO, AMZN, AMD**
+
+**Position limit note:** User has directed full deployment to ~13 positions total (including MSFT, V, META pending). This consciously exceeds the strategy's 12-position cap as a paper-trading test of broader portfolio construction.
+
+---
+
 <!-- Entry format:
 
 ## YYYY-MM-DD — Pre-market Research
