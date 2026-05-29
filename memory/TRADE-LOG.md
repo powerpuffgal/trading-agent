@@ -7,6 +7,33 @@ No positions. Alpaca paper account confirmed active. First live pre-market run t
 
 ---
 
+## 2026-05-29 — Actual Fills Confirmed (market open 09:30 ET)
+
+| Ticker | Ordered | Filled | Avg Fill | Cost Basis | Hard Stop (-15%) |
+|--------|---------|--------|----------|------------|------------------|
+| MSFT   | 17      | 17     | $439.18  | $7,466.09  | $373.30          |
+| V      | 23      | 23     | $326.85  | $7,517.63  | $277.82          |
+| META   | 11      | 11     | $629.67  | $6,926.34  | $535.22          |
+| NVDA   | 19      | 19     | $212.97  | $4,046.43  | $181.02          |
+| GOOGL  | 11      | 11     | $382.68  | $4,209.48  | $325.28          |
+| AVGO   | 9       | 9      | $436.52  | $3,928.68  | $371.04          |
+| AMZN   | 30      | 30     | $273.41  | $8,202.36  | $232.40          |
+| INOD   | 48      | **44** ⚠️ | $99.93 | $4,396.80 | $84.94          |
+| ICE    | 53      | 53     | $148.26  | $7,858.03  | $126.02          |
+| ORLA   | 329     | **309** ⚠️ | $12.61 | $3,897.89 | $10.72         |
+| EGO    | 110     | 110    | $33.05   | $3,635.36  | $28.09           |
+| WLDN   | 51      | 51     | $93.00   | $4,743.00  | $79.05           |
+
+⚠️ INOD: 4 shares residual working (48 ordered, 44 filled). ⚠️ ORLA: 20 shares residual working (329 ordered, 309 filled). Both expire EOD.
+
+**Notable fill vs estimate:**
+- INOD filled $99.93 vs ~$84 estimate (+19%) — AH bid quote was stale; actual open was ~$100
+- WLDN filled $93.00 vs ~$80 estimate (+16%) — same AH quote staleness issue
+- GOOGL filled $382.68 vs ~$368 estimate (+4%)
+- EGO filled $33.05 — within the flagged $28–38 range ✓
+
+---
+
 <!-- Trade entry format:
 ## YYYY-MM-DD — BUY TICKER
 - Entry: $X.XX | Shares: N | Cost basis: $X
@@ -93,6 +120,26 @@ No positions. Alpaca paper account confirmed active. First live pre-market run t
 - Entry: ~$399–451 (wide AH spread; conservatively sized) | Shares: 9 | Est. cost basis: $3,591–$4,059
 - Thesis: EBITDA margin 68%, AI semiconductor revenue +106% YoY to $8.4B Q1. Custom ASICs for Microsoft, Google, Meta. Q2 2026 guidance $22B (+47% YoY). Structural AI infrastructure pick.
 - Thesis-break exit: AI ASIC revenue growth decelerates below 30% for 2+ quarters OR a major hyperscaler partner brings ASIC design in-house.
-- Fair value: $482 (analyst consensus 12-month) | Hard stop: -15% from actual fill
+- Fair value: $482 (analyst consensus 12-month) | Hard stop: ~$371 (-15% from $436.52 actual fill)
 
 ---
+
+## 2026-05-29 — EOD Snapshot (Day 1, Friday)
+**Portfolio:** $99,812.93 | **Cash:** $33,171.91 (33.2%) | **Day P&L:** -$187.07 (-0.19%) | **Phase P&L:** -$187.07 (-0.19%)
+
+| Ticker | Shares | Avg Cost | Price   | Unreal. P&L    | vs Stop        |
+|--------|--------|----------|---------|----------------|----------------|
+| AMZN   | 30     | $273.41  | $272.96 | -$13.56 (-0.2%)  | $232.40 ✓ +17% |
+| AVGO   | 9      | $436.52  | $437.50 | +$8.82 (+0.2%)   | $371.04 ✓ +18% |
+| EGO    | 110    | $33.05   | $33.06  | +$1.24 (+0.03%)  | $28.09 ✓ +18%  |
+| GOOGL  | 11     | $382.68  | $382.92 | +$2.64 (+0.1%)   | $325.28 ✓ +18% |
+| ICE    | 53     | $148.26  | $147.31 | -$50.60 (-0.6%)  | $126.02 ✓ +17% |
+| INOD   | 44⚠️   | $99.93   | $98.86  | -$46.96 (-1.1%)  | $84.94 ✓ +16%  |
+| META   | 11     | $629.67  | $629.15 | -$5.69 (-0.1%)   | $535.22 ✓ +18% |
+| MSFT   | 17     | $439.18  | $439.68 | +$8.38 (+0.1%)   | $373.30 ✓ +18% |
+| NVDA   | 19     | $212.97  | $213.20 | +$4.37 (+0.1%)   | $181.02 ✓ +18% |
+| ORLA   | 309⚠️  | $12.61   | $12.52  | -$30.75 (-0.8%)  | $10.72 ✓ +17%  |
+| V      | 23     | $326.85  | $326.32 | -$12.39 (-0.2%)  | $277.82 ✓ +18% |
+| WLDN   | 51     | $93.00   | $92.00  | -$51.00 (-1.1%)  | $79.05 ✓ +16%  |
+
+**Notes:** Day 1 of live paper trading. All 12 positions initiated at market open. Portfolio down -0.19% on first partial day — essentially flat, consistent with market filling at the open. No positions near hard stops; all within normal noise. Two partial fills outstanding (INOD 4 shares, ORLA 20 shares) will either fill intraday or expire. Key observation: AH bid quotes proved unreliable for sizing estimates — INOD and WLDN both opened ~15-19% above the AH bid used for planning; future sizing should use last close price, not AH bid. Total cost basis deployed: $66,828 (66.8% of equity). Cash $33,172 (33.2%) — ahead of the $25k target due to buying power constraints; provides dry powder for scale-ins or new opportunities.
