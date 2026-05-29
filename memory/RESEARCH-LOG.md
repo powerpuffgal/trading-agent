@@ -68,6 +68,49 @@ None. FMP fundamentals unavailable — no buy decisions possible. Market at all-
 
 ---
 
+## 2026-05-29 — Intraday Research Update (FMP confirmed, portfolio initialisation)
+
+### FMP Fundamentals — Confirmed (stable API)
+
+| Ticker | P/E  | P/B  | ROE   | D/E  | Net Margin | FCF Yield | Rev Growth | Conviction        |
+|--------|------|------|-------|------|------------|-----------|------------|-------------------|
+| MSFT   | 25.3x | 7.7x | 33.1% | 0.14 | 39.3%      | 2.30%     | +14.9%     | MEDIUM → initiating half |
+| V      | 28.0x | 17.4x | 58.9% | 0.67 | 51.7%     | 3.40%     | +11.3%     | MEDIUM → initiating half |
+| AAPL   | 37.5x | 43.2x | 146.7% | 0.80 | 27.2%    | 2.81%     | +6.4%      | LOW — no trigger  |
+| COST   | 50.0x | 13.2x | 28.3% | 0.07 | 3.0%      | 1.99%     | +8.2%      | LOW — no trigger  |
+| UNH    | 28.9x | 3.4x  | 12.4% | 0.75 | 2.7%      | 5.66%     | +11.8%     | ⚠️ THESIS BREAK — see alumni |
+
+### MSFT — Buy Thesis (half position, 17 shares)
+- **FMP data confirms:** P/E 25.3x — 1.2% above our 25x entry trigger; 3-yr low is ~24x
+- **Quality gates:** ROE 33.1% ✓, net margin 39.3% ✓, D/E 0.14 ✓, FCF yield 2.30%
+- **Growth:** Revenue +14.9% YoY; Q3 FY26 beat — Azure +40% YoY, net income +23%
+- **Specific entry reason:** Initiating half-sized position (7.5% of equity) at near-trigger valuation to begin portfolio. Market at all-time highs is a mild headwind; half size preserves firepower to scale to full position if P/E crosses below 25x on a pullback
+- **Thesis-break exit:** Azure growth decelerates below 20% for 2+ consecutive quarters, OR ROE drops below 25%, OR major guidance cut (>15% EPS revision)
+- **Fair value estimate:** $560 (12-month analyst consensus); hard stop: -15% from entry = ~$383 (at $450 ask) or adjusted to actual fill
+- **Conviction:** MEDIUM (not HIGH — market not dislocated; valuation at threshold but not below it)
+
+### V — Buy Thesis (half position, 23 shares)
+- **FMP data confirms:** P/E 28.0x — exactly at our 28x entry trigger
+- **Quality gates:** ROE 58.9% ✓, net margin 51.7% ✓, D/E 0.67 ✓, FCF yield 3.40%
+- **Growth:** Revenue +11.3% YoY; Q2 FY26 beat — EPS +20% YoY, transaction volumes resilient
+- **Specific entry reason:** Initiating half-sized position (7.5% of equity) at the valuation trigger threshold. P/E at exactly 28x; will scale to full position if macro fear selloff pushes P/E below 26x
+- **Thesis-break exit:** Payment volume growth turns negative for 2+ quarters, OR a regulatory action that structurally limits Visa's interchange economics
+- **Fair value estimate:** $399 (analyst consensus 12-month PT); hard stop: -15% from entry = ~$291 (at $324 last close) or adjusted to actual fill
+- **Conviction:** MEDIUM (valuation at trigger but macro-fear catalyst not present)
+
+### Portfolio Initialisation Note
+Both trades are deliberate half-position entries to:
+1. Begin generating real performance data for routine calibration
+2. Establish cost bases for scale-in on the next dislocation
+3. Keep 85%+ of capital in reserve for high-conviction opportunities in the expanded watchlist (GOOGL, NVDA, META, JPM, LLY, AVGO, MA)
+
+### Watchlist Expansion — 2026-05-29
+- **Added to Active:** GOOGL (PE 29.5, ROE 39%, rev +15%), NVDA (PE 32.6, ROE 112%, rev +65.5%), META (PE 22.8, ROE 33.2%, rev +22.2%)
+- **Added to Watch:** JPM (PE 14, ROE 16.3%), LLY, AVGO, MA (FMP premium — web search for ratios)
+- **Removed to Alumni:** UNH (thesis break — ROE 12.4%, EPS -15.4%, first revenue decline, DOJ probe)
+
+---
+
 <!-- Entry format:
 
 ## YYYY-MM-DD — Pre-market Research

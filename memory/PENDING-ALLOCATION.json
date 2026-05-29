@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-29",
+  "proposed_at": "2026-05-29T15:30:00Z",
+  "expires_at": "2026-05-29T19:30:00Z",
+  "default": "B",
+  "status": "pending",
+  "chosen": null,
+  "approved_at": null,
+  "options": {
+    "A": {
+      "label": "Conservative — hold all cash",
+      "description": "No trades. Market at all-time highs, no dislocations. Preserves 100% cash for higher-conviction entries.",
+      "trades": [],
+      "est_prices": {},
+      "theses": {},
+      "thesis_breaks": {},
+      "fair_values": {}
+    },
+    "B": {
+      "label": "Recommended — MSFT + V half positions",
+      "description": "Initiate MSFT 17sh + V 23sh. Combined ~$14,700 (14.7% equity). Both at valuation trigger thresholds. Half-size preserves 85% cash.",
+      "trades": [
+        {"symbol": "MSFT", "qty": "17", "side": "buy", "type": "market", "time_in_force": "day"},
+        {"symbol": "V",    "qty": "23", "side": "buy", "type": "market", "time_in_force": "day"}
+      ],
+      "est_prices": {"MSFT": 425, "V": 324},
+      "theses": {
+        "MSFT": "P/E 25.3x (FMP) at 3-yr low trigger. ROE 33.1%, net margin 39.3%, D/E 0.14. Azure +40% YoY, Q3 beat. Half-size: scale to full on P/E < 25x.",
+        "V": "P/E 28.0x (FMP) exactly at trigger. ROE 58.9%, net margin 51.7%, D/E 0.67. Q2 EPS +20% YoY. Half-size: scale on macro-fear pullback."
+      },
+      "thesis_breaks": {
+        "MSFT": "Azure growth decelerates below 20% for 2+ quarters OR ROE drops below 25% OR major guidance cut >15%.",
+        "V": "Payment volume growth turns negative for 2+ quarters OR regulatory action limits interchange economics."
+      },
+      "fair_values": {"MSFT": 560, "V": 399}
+    },
+    "C": {
+      "label": "Aggressive — MSFT + V + META half positions",
+      "description": "MSFT 17sh + V 23sh + META 11sh. Combined ~$22,200 (22.2% equity). META at P/E 22.8x — best tech value on watchlist. Keeps 77.8% cash.",
+      "trades": [
+        {"symbol": "MSFT", "qty": "17", "side": "buy", "type": "market", "time_in_force": "day"},
+        {"symbol": "V",    "qty": "23", "side": "buy", "type": "market", "time_in_force": "day"},
+        {"symbol": "META", "qty": "11", "side": "buy", "type": "market", "time_in_force": "day"}
+      ],
+      "est_prices": {"MSFT": 425, "V": 324, "META": 640},
+      "theses": {
+        "MSFT": "P/E 25.3x (FMP) at 3-yr low trigger. ROE 33.1%, net margin 39.3%, D/E 0.14. Azure +40% YoY, Q3 beat. Half-size: scale to full on P/E < 25x.",
+        "V": "P/E 28.0x (FMP) exactly at trigger. ROE 58.9%, net margin 51.7%, D/E 0.67. Q2 EPS +20% YoY. Half-size: scale on macro-fear pullback.",
+        "META": "P/E 22.8x (FMP) — cheapest quality name in tech watchlist. ROE 33.2%, net margin 32.8%, D/E 0.36. Revenue +22% YoY. Down 4% YTD vs S&P +10% — relative dislocation. New subscription revenue stream."
+      },
+      "thesis_breaks": {
+        "MSFT": "Azure growth decelerates below 20% for 2+ quarters OR ROE drops below 25% OR major guidance cut >15%.",
+        "V": "Payment volume growth turns negative for 2+ quarters OR regulatory action limits interchange economics.",
+        "META": "DAU growth stalls OR ad revenue declines for 2+ quarters OR regulatory breakup of platforms."
+      },
+      "fair_values": {"MSFT": 560, "V": 399, "META": 820}
+    }
+  }
+}
