@@ -18,13 +18,13 @@ No positions. Alpaca paper account confirmed active. First live pre-market run t
 | GOOGL  | 11      | 11     | $382.68  | $4,209.48  | $325.28          |
 | AVGO   | 9       | 9      | $436.52  | $3,928.68  | $371.04          |
 | AMZN   | 30      | 30     | $273.41  | $8,202.36  | $232.40          |
-| INOD   | 48      | **44** ⚠️ | $99.93 | $4,396.80 | $84.94          |
+| INOD   | 48      | 48 ✅     | $99.87 | $4,793.60 | $84.89          |
 | ICE    | 53      | 53     | $148.26  | $7,858.03  | $126.02          |
-| ORLA   | 329     | **309** ⚠️ | $12.61 | $3,897.89 | $10.72         |
+| ORLA   | 329     | 329 ✅    | $12.61 | $4,148.89 | $10.72          |
 | EGO    | 110     | 110    | $33.05   | $3,635.36  | $28.09           |
 | WLDN   | 51      | 51     | $93.00   | $4,743.00  | $79.05           |
 
-⚠️ INOD: 4 shares residual working (48 ordered, 44 filled). ⚠️ ORLA: 20 shares residual working (329 ordered, 309 filled). Both expire EOD.
+✅ Both fully filled intraday. INOD 48/48 @ $99.87 avg. ORLA 329/329 @ $12.61 avg.
 
 **Notable fill vs estimate:**
 - INOD filled $99.93 vs ~$84 estimate (+19%) — AH bid quote was stale; actual open was ~$100
